@@ -1,2 +1,7 @@
-# disp.movel.2017.b.iOS
-Repositório para armazenar exemplos e material das disciplinas de iOS do curso de pós-graduação em dispositivos móveis.
+# IESB - Especialização em Dispositivos Móveis
+## Turma 2017-B - Desenvolvimento para iOS
+### Professor Pedro Henrique
+
+Prezados Alunos,
+
+O material da disciplina vai estar disponível aqui, assim como no BlackBoard do IESB.
