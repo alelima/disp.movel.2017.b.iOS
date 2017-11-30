@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     
     var usuerIsInMiddleOfTyping = false
     
+    private var brain = CalculatorBrain()
+    
     private var displayValue: Double {
         get {
             return Double(display.text!)!
@@ -40,33 +42,15 @@ class ViewController: UIViewController {
         
     }
     
-    var accumulator: Double?
-    var operand: Double?
-    
     @IBAction func performOperation(_ sender: UIButton) {
+       brain.setOperand(displayValue)
         usuerIsInMiddleOfTyping = false
-        if let symbol = sender.titleLabel?.text {
-            switch symbol {
-            case "π": displayValue = Double.pi
-            case "+": performBinaryOperation(withMathematicalSymbol: symbol)
-            default: break
-                
-            }
+        if let symbol = sender.currentTitle {
+            brain.performOperation(symbol)
+            displayValue = brain.result!
         }
     }
     
-    private func performBinaryOperation(withMathematicalSymbol symbol: String) {
-        if accumulator != nil {
-            switch symbol {
-            case "+": displayValue = accumulator! + displayValue
-            default: break
-            }
-            
-        }else {
-            accumulator = displayValue
-            displayValue = 0
-        }
-    }
     
 }
 
