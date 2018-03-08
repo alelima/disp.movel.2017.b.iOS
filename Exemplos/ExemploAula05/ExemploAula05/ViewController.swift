@@ -10,6 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
-   
+    @IBOutlet weak var faceView: FaceView! {
+        didSet {
+            let action = #selector(ViewController.pan(recognizer:))
+            let pan = UIPanGestureRecognizer(target: self, action: action)
+            faceView.addGestureRecognizer(pan)
+        }
+    }
+    
+    @objc private func pan(recognizer: UIPanGestureRecognizer) {
+        switch recognizer.state {
+            case .changed: fallthrough
+            case .ended:
+                faceView.center = recognizer.location(in: self.view)
+            default: break
+        }
+    }
+    
 }
 

@@ -13,6 +13,7 @@
 		EBF1E3DE205098F100DBF6B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF1E3DD205098F100DBF6B7 /* Assets.xcassets */; };
 		EBF1E3E1205098F100DBF6B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF1E3DF205098F100DBF6B7 /* LaunchScreen.storyboard */; };
 		EBF1E3E92050993400DBF6B7 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF1E3E82050993400DBF6B7 /* FaceView.swift */; };
+		EBF1E3EB2050C4B000DBF6B7 /* TelaLaranjadaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF1E3EA2050C4B000DBF6B7 /* TelaLaranjadaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EBF1E3E0205098F100DBF6B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBF1E3E2205098F100DBF6B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBF1E3E82050993400DBF6B7 /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		EBF1E3EA2050C4B000DBF6B7 /* TelaLaranjadaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaLaranjadaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EBF1E3DF205098F100DBF6B7 /* LaunchScreen.storyboard */,
 				EBF1E3E2205098F100DBF6B7 /* Info.plist */,
 				EBF1E3E82050993400DBF6B7 /* FaceView.swift */,
+				EBF1E3EA2050C4B000DBF6B7 /* TelaLaranjadaViewController.swift */,
 			);
 			path = ExemploAula05;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBF1E3D9205098F100DBF6B7 /* ViewController.swift in Sources */,
+				EBF1E3EB2050C4B000DBF6B7 /* TelaLaranjadaViewController.swift in Sources */,
 				EBF1E3D7205098F100DBF6B7 /* AppDelegate.swift in Sources */,
 				EBF1E3E92050993400DBF6B7 /* FaceView.swift in Sources */,
 			);
