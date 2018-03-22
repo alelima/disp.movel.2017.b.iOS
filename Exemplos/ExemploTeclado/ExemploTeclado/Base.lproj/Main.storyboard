@@ -35,7 +35,7 @@
                     </view>
                     <connections>
                         <outlet property="bottomConstraint" destination="Dee-IC-FAL" id="e9M-V4-DAn"/>
-                        <outlet property="textoEntrada" destination="7gX-lT-4G1" id="OXp-VP-Vnp"/>
+                        <outlet property="textField" destination="7gX-lT-4G1" id="a2L-Ik-sCt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

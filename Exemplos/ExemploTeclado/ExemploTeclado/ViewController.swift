@@ -37,7 +37,8 @@ class ViewController: UIViewController {
                                                name: Notification.Name.UIKeyboardDidHide,
                                                object: view.window)
         
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(textField.resignFirstResponder))
+        
+        let tapGesture = UITapGestureRecognizer(target: textField, action: #selector(UITextField.resignFirstResponder))
         self.view.addGestureRecognizer(tapGesture)
     }
     
